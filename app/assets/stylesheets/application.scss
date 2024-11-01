@@ -10,3 +10,25 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+body {
+    background-color: #5C381C;
+}
+
+h1, h2, h3 {
+    font-family: "Cinzel", serif;
+}
+
+p {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.my-button {
+    background-color: #E0BD40;
+}
+
+.my-button:hover {
+    background-color: red;
+}
