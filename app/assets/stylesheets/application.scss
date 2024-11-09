@@ -10,6 +10,7 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "pages/navbar";
 
 body {
     background-color: #5C381C;
@@ -25,10 +26,6 @@ p {
     font-style: normal;
 }
 
-.my-button {
-    background-color: #E0BD40;
-}
-
-.my-button:hover {
-    background-color: red;
+.container {
+    text-align: center;
 }

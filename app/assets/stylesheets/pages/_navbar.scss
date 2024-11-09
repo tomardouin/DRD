@@ -1,0 +1,25 @@
+header {
+    background-color: #5C381C;
+    color: #FFD700;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+
+nav a:hover {
+    color: #FFFFFF;
+}
